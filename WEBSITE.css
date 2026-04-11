@@ -1,21 +1,37 @@
 
 .wrapper {
     display: grid;
-    grid-template-columns: repeat(4, 1fr); /* Changed to 1fr for equal columns; 3fr works but 1fr is standard */
-    column-gap: 20px; /* Reduced for better fit */
-    row-gap: 20px; /* Reduced for better fit */
-    margin: 20px; /* Reduced margin */
+    grid-template-columns: repeat(2, 1fr); 
+    column-gap: 20px; 
+    row-gap: 20px; 
+    margin: 20px; 
 }
 
 .wrapper div {
-    border: 2px solid brown; /* Reduced border width */
-    border-radius: 10px; /* Reduced value */
+    border: 2px solid brown; 
+    border-radius: 10px;
     background-color: burlywood;
-    padding: 10em;
+    padding: 5em;
     color: black;
 }
 
 .wrapper h2 {
     text-align: center;
-    vertical-align: top;
+    font-size: xx-large;
+    vertical-align:text-top;
+    margin-bottom: 1cm;
+    margin-top: -1cm;
+}
+
+.wrapper p {
+    text-align: center;
+    font-size: x-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.wrapper img {
+    display: block;
+    margin: auto;
+    width: 10cm;
+    height: 10cm;
 }
