@@ -1,0 +1,21 @@
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Changed to 1fr for equal columns; 3fr works but 1fr is standard */
+    column-gap: 20px; /* Reduced for better fit */
+    row-gap: 20px; /* Reduced for better fit */
+    margin: 20px; /* Reduced margin */
+}
+
+.wrapper div {
+    border: 2px solid brown; /* Reduced border width */
+    border-radius: 10px; /* Reduced value */
+    background-color: burlywood;
+    padding: 10em;
+    color: black;
+}
+
+.wrapper h2 {
+    text-align: center;
+    vertical-align: top;
+}
