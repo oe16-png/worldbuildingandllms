@@ -8,27 +8,27 @@
 }
 
 .wrapper div {
-    border: 2px solid brown; 
+    border: 2px solid blueviolet; 
     border-radius: 10px;
-    background-color: burlywood;
+    background-color: grey;
     padding: 5em;
     color: black;
 }
 
 .wrapper h2 {
     text-align: center;
-    text-decoration-color: black;
     font-size: xx-large;
     vertical-align:text-top;
     margin-bottom: 1cm;
     margin-top: -1cm;
+    color: chartreuse;
 }
 
 .wrapper p {
     text-align: center;
     font-size: x-large;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-decoration-color: black;
+    color: whitesmoke;
 }
 
 .wrapper img {
