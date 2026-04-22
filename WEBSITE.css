@@ -8,11 +8,10 @@
 }
 
 .wrapper div {
-    border: 2px solid blueviolet; 
+    border: 2px solid #cceeee; 
     border-radius: 10px;
-    background-color: grey;
-    padding: 5em;
-    color: black;
+    background-color: #cdaa64;
+    padding: 3em;
 }
 
 .wrapper h2 {
@@ -21,14 +20,15 @@
     vertical-align:text-top;
     margin-bottom: 1cm;
     margin-top: -1cm;
-    color: chartreuse;
+    color: #101479;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .wrapper p {
     text-align: center;
     font-size: x-large;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: whitesmoke;
+    font-family:Impact,sans-serif;
+    color: #101010;
 }
 
 .wrapper img {
@@ -36,4 +36,10 @@
     margin: auto;
     width: 10cm;
     height: 10cm;
+}
+body{
+    background-color: #002c2c;
+}
+h1{
+    color: #fff;
 }
